@@ -4,36 +4,43 @@
     <meta charset="utf-8" />
     <meta name="description" content="This is where your description goes" />
     <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-    <title>Title in the tab</title>
+    <title>mix-it-up</title>
 
     <!-- external CSS link -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1><span class="glow"></span>mix-it-up</h1>
-      <p>Discover your next favourite Cocktail</p>
-    </header>
+    <section class="container">
+      <section class="one">
+        <header>
+          <h1><span class="glow"></span>mix-it-up</h1>
+          <h2>Discover your next favourite Cocktail and mix it up.</h2>
+        </header>
 
-    <div class="user-inputs">
-      <input type="text" name="" value="" />
-      <button type="button" name="button">Get Cocktail</button>
-    </div>
+        <div class="user-inputs">
+          <input type="text" name="" value="" />
+          <button type="button" name="button">Get Cocktail</button>
+        </div>
 
-    <section class="carousel_track_container">
-      <button id="left">left</button>
+        <div class="content">
+          <h2>Name</h2>
+          <p id="instructions"></p>
+        </div>
+      </section>
 
-      <div class="carousel">
-        <h2></h2>
-        <h2></h2>
-        <p id="instructions"></p>
-      </div>
-
-      <button id="right">Right</button>
+      <section class="two">
+          <button id="left"><img src="./img/vuesax/linear/arrow-left.svg" alt=""></button>
+            <img
+              src="./img/m-s-meeuwesen-QYWYnzvPTAQ-unsplash.jpg"
+              alt="cocktail"
+            />
+          <button id="right"><img src="./img/vuesax/linear/arrow-right.svg" alt=""></button>
+        </section>
+      </section>
     </section>
-
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
