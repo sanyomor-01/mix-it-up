@@ -54,7 +54,7 @@ html {
 .content {
   padding: 2.4rem;
   background-color: #fff;
-  border-radius: 1.6rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -65,7 +65,7 @@ img {
   height: 100%;
   object-fit: cover;
   max-width: 100%;
-  border-radius: 1.2rem;
+  border-radius: 0.5rem;
 }
 
 header {
@@ -296,7 +296,7 @@ header h2 {
   }
 
   .two {
-    height: 30rem;
+    height: 40rem;
   }
 
   header h1 {

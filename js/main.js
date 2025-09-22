@@ -9,7 +9,7 @@ let cocktailDrinks = []
 let cocktailDrinksIndex = 0
 
 
-document.querySelector('.carousel').style.backgroundImage = `url(./img/m-s-meeuwesen-QYWYnzvPTAQ-unsplash.jpg)`
+document.querySelector('#drinkImg').src = `./img/m-s-meeuwesen-QYWYnzvPTAQ-unsplash.jpg`
 rightBtn.style.display = 'none'
 leftBtn.style.display = 'none'
 
@@ -43,8 +43,8 @@ function reRenderUI() {
 
         let drink = cocktailDrinks[cocktailDrinksIndex]
 
-        document.querySelector('h2').innerText = drink.strDrink
-        document.querySelector('.carousel').style.backgroundImage = `url(${drink.strDrinkThumb}`
+        document.querySelector('#drinkName').innerText = drink.strDrink
+        document.querySelector('#drinkImg').src = `${drink.strDrinkThumb}`
         document.querySelector('#instructions').innerText = drink.strInstructions
     }
 
